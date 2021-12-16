@@ -25,12 +25,12 @@
             <items>
               <MenuItem mnemonicParsing="false" onAction="#handleUnderDevelopment" text="Maintanence " />
                   <MenuItem mnemonicParsing="false" onAction="#handleUnderDevelopment" text="Available Robots " />
-                  <MenuItem fx:id="createTask" mnemonicParsing="false" onAction="#handleCreateTask" text="Create Task " />
+                  <MenuItem mnemonicParsing="false" onAction="#handleCreateTask" text="Create Task " />
             </items>
           </Menu>
             <Menu mnemonicParsing="false" text="Help">
                <items>
-                  <MenuItem fx:id="support" mnemonicParsing="false" onAction="#handleSupport" text="Contact IT Support" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleSupport" text="Contact IT Support" />
                   <MenuItem mnemonicParsing="false" onAction="#handleUnderDevelopment" text="Read Manual" />
                </items>
             </Menu>
@@ -56,6 +56,6 @@
             </Text>
          </children>
       </VBox>
-      <Button fx:id="buttonLogOut" layoutX="528.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleLogOut" text="Log Out" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="13.0" />
+      <Button layoutX="528.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleLogOut" text="Log Out" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="13.0" />
    </children>
 </AnchorPane>
