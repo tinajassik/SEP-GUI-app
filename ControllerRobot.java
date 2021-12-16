@@ -40,7 +40,7 @@ public class ControllerRobot {
 			stage.show();
 		}
 		
-		public void handleCreateTask(ActionEvent event) {
+	public void handleCreateTask(ActionEvent event) {
 			
 			JTextField sectionField = new JTextField(5);
 			JTextField rackField = new JTextField(5);
@@ -69,14 +69,14 @@ public class ControllerRobot {
 			
 		}
 		
-		public void handleUnderDevelopment(ActionEvent event) {
+	public void handleUnderDevelopment(ActionEvent event) {
 			
 			JOptionPane.showMessageDialog(null, "Application under development. Available soon.",
 					"Info",JOptionPane.INFORMATION_MESSAGE);
 				
 		}
 		
-		public void handleSupport(ActionEvent event) {
+	public void handleSupport(ActionEvent event) {
 			JOptionPane.showInputDialog(null, "Your message will be directly forwared to the IT department", 
 					"Contact IT Support ", JOptionPane.QUESTION_MESSAGE);
 		}
