@@ -56,10 +56,16 @@ public class ControllerRobot {
 			int result = JOptionPane.showConfirmDialog(null, myPanel, 
 					"Select desired location", JOptionPane.OK_CANCEL_OPTION);
 	
-			if (result == JOptionPane.OK_OPTION) {
-		         section = Integer.parseInt(sectionField.getText());
-		         rack  = Integer.parseInt(rackField.getText());
-		      }
+			
+		      	if (result == JOptionPane.OK_OPTION) {
+				try {
+		         		section = Integer.parseInt(sectionField.getText());
+		         		rack  = Integer.parseInt(rackField.getText());
+				}
+				catch (NumberFormatException e) {
+					System.out.println("Wrong Input. Try Again.");
+				}
+		      }	
 			
 		}
 		
